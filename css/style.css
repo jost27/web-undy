@@ -155,6 +155,11 @@ p{cursor: default;}
 	margin-top: 100px;
 }
 
+.class{
+    display:block;
+    width: 30%;
+    height: auto;
+}
 
 
 
