@@ -81,12 +81,6 @@ p{cursor: default;}
     margin-top: 150px;
 }
 
-.myth > img:first-of-type
-{
-    overflow: visible;
-    transform: translateY(-50px);
-}
-
 .myth-left > img{float: left;}
 
 .myth-right > img{float: right;}
@@ -113,7 +107,7 @@ p{cursor: default;}
 {
     background-image: url(../img/myths/myth-noxus-back.png);
     background-repeat: no-repeat;
-    background-size: 2000px 400px
+    background-size: 650px 400px
 }
 
 
