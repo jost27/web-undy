@@ -37,12 +37,6 @@
 }
 
 
-.class{
-    display:inline-block;
-    width: 25%;
-    height: 500px;
-    margin-left: 5%
-}
 
 .photomulti{
     position: absolute;
@@ -96,6 +90,7 @@
 }
 .modalmarco{
     z-index: 2;
+    cursor:zoom-out;
 }
 .modalimg{
     position: absolute;
@@ -153,4 +148,28 @@
 @keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
+}
+/*----Class page-----*/
+.class{
+    display:inline-block;
+    width: 25%;
+    height: 400px;
+    margin-left: 5%;
+    cursor: pointer;
+}
+
+
+.class img:nth-child(2){
+    align-self: center;
+    height: 14%;
+    width: auto;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.class:hover  ~ img{
+    transform: scale(1.1); 
+   
+    
 }
