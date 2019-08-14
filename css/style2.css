@@ -246,30 +246,88 @@
 
 .class-myth{
     display:inline-block;
-    width: 40%;
+    width: 25%;
     height: 500px;
     margin-left: 5%;
     cursor: pointer;
     transition: all 1s ease;
     
 }
-.class-myth:hover{
-    transform: scale(1.1); 
-}
-.class-myth img{
-    width: 100%
-}
+.class-myth:hover{transform: scale(1.1); }
+.class-myth img{width: 100%}
 .class-related{
     display:inline-block;
-    width: 25%;
-    height: 500px;
-    margin-left: 5%;
-    cursor: pointer;
+    width: 25%;height: 500px;
+    margin-left: 5%;cursor: pointer;
     transition: all 1s ease;
 }
-.class-related img{
+.class-related img{width: 100%}.class-related:hover{transform: scale(1.2);}
+
+
+/*-------------------myths lore-----------------*/
+/*--background---*/
+.background-myths-lore{
+    position: fixed;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+.background-myths-lore img{
     width: 100%
+    
 }
-.class-related:hover{
-    transform: scale(1.2);
+/*image initial*/
+.img-name-myth-lore{
+    width: 100%;
 }
+.img-name-myth-lore img{
+    width: 100%;
+}
+/*info myth*/
+.myth-text{
+    display: inline-block;
+    width: 40%;
+    height:auto;
+   
+    margin-left: 5%;
+}
+
+.myth-text-p{
+     font-size: 2em;
+      color:#eee;
+    width: 100%;    
+}
+
+.row3-myths-lore{
+    width: 100%;
+}
+.row3-myths-lore td{
+    width: 20%;
+}
+.row3-myths-lore td>img{
+    width: 80%;
+}
+
+.row3-myths-lore td:nth-child(2){
+    width: 13%;
+}
+.row3-myths-lore td:nth-child(3){
+    width: 13%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
