@@ -11,7 +11,7 @@ html{box-sizing:border-box;}
 p{cursor: default;}
 
 .ft-1{font-family: 'Marcellus', serif;}
-
+/*-------------------------------------------------------------------------------------*/
 #menu
 {
 	width: 100%;
@@ -64,51 +64,18 @@ p{cursor: default;}
     background-size: 275px 75px
 }
 
-
-
-.myth
+/*-------------------------------------------------------------------------------------*/
+.separator
 {
-    width: 100%;
-    height: 400px;
+    height: 100px;
     background: black;
 }
-
-.myth-left{background-position: right}
-.myth-right{background-position: left}
-
-.myth > img:nth-of-type(2)
+.separator-invis
 {
-    margin-top: 150px;
+    height: 100px;
 }
+/*-------------------------------------------------------------------------------------*/
 
-.myth-left > img{float: left;}
-
-.myth-right > img{float: right;}
-
-#myth-arawn
-{
-    background-image: url(../img/myths/myth-arawn-back.png);
-    background-repeat: no-repeat;
-    background-size: 650px 400px
-}
-#myth-lea
-{
-    background-image: url(../img/myths/myth-lea-back.png);
-    background-repeat: no-repeat;
-    background-size: 2000px 400px
-}
-#myth-talos
-{
-    background-image: url(../img/myths/myth-talos-back.png);
-    background-repeat: no-repeat;
-    background-size: 2000px 400px
-}
-#myth-noxus
-{
-    background-image: url(../img/myths/myth-noxus-back.png);
-    background-repeat: no-repeat;
-    background-size: 650px 400px
-}
 
 
 
@@ -116,7 +83,7 @@ p{cursor: default;}
 
 /*-------------------------------------------------------------------------------------*/
 
-
+/*no se si lo de abajo aun se use o no, mire si se debe eliminar*/
 
 .esp{
 	margin-top: 50px;
