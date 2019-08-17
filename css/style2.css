@@ -276,14 +276,28 @@
     width: 100%
     
 }
-/*image initial*/
+#sec1{
+   margin-top: 100px;
+    margin-bottom: 100px;
+}
+/*section1-myth initial--*/
+.logo-myth{
+    display: inline-block;
+    width: 45%;
+    margin-left: 2%;
+    
+}
+.logo-myth img{
+    width: 100%;
+    display: block;
+}
+/*info myth*/
 .img-name-myth-lore{
     width: 100%;
 }
 .img-name-myth-lore img{
     width: 100%;
 }
-/*info myth*/
 .myth-text{
     display: inline-block;
     width: 40%;
@@ -317,19 +331,58 @@
     width: 6%;
 }
 
+/*sec2*/
+.text-myth-lore{
+    display: inline-block;
+    font-size: 1.1em;
+     color:#eee;
+    width: 45%;
+    margin-left: 4%;
+ text-align: justify;
+    opacity: 0.5;
+}
+#myth-loreimg{
+    display: inline-block;
+    width: 40%;
+    margin-left: 5%;
+    
+}
+#myth-loreimg img{
+    width: 100%;
+}
+/* section 3*/
 
+.photo-art-myth{
+    width: 40%;
+    margin-left: 8%;
+    display: inline-block;
+}
+.photo-art-myth img{
+    width: 100%;
+}
+/*---sec3--- */
 
+.myths-related{
+    height: 400px;
+    width: auto;
+    display: inline-block;
+    margin-right: -25px;
+    cursor: pointer;
+}
+.myths-related img{
+  height: 100%;
+    overflow: visible;
+}
 
+#talos-related {
+    height: 450px;
+    margin-top:-250px;
+    margin-left: -20px;
+    margin-right: 0px;
+}
 
-
-
-
-
-
-
-
-
-
-
+.ft-myht-related{
+    margin-left: 5%;
+}
 
 
