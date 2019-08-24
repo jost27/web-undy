@@ -3,15 +3,20 @@
 
 /*-------------------------------------------------------------------------------------*/
 
-
+body{
+    background-image: radial-gradient(circle,#444 2%,#222 15%, black 60%);
+}
 
 .esp{
-	margin-top: 50px;
+margin-top: 50px;
 	position: relative;
 	height: 500px;
 	display: inline-block;
 	margin-left: 4%;
-
+	overflow: hidden;
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position: center
 }
 .multiprimera{
 	margin-top: 100px;
@@ -21,7 +26,10 @@
 	width: 28%;
 	height:400px ;
 }
-
+.esp>img{
+	width: 100%;
+	height: 100%;
+}
 .d2
 {
 	width: 45%;
@@ -149,6 +157,181 @@
   from {opacity: .4} 
   to {opacity: 1}
 }
+@media screen and (max-width: 768px) {
+    
+      .d1{
+        width: 90%;
+        height: 400px;
+    }
+    .d1>img{
+	margin-left: 0px;
+	margin-right: 0px;
+}
+    .d2{
+        width: 90%;
+        height: 400px;
+    }
+     .d3{
+        width: 90%;
+        height: 400px;
+    }
+    .modal{
+        display: hide;
+    }
+    .multiprimera{
+	margin-top: 50px;
+    }
+    #firstphoto{
+       margin-top: 100px; 
+    }
+    .modalcon{
+    top: 150px;
+    width: 100%;
+    height: 35%;
+}
+    
+}
+@media screen and (max-width: 425px) {
+    .d1{
+        width: 90%;
+        height: 200px;
+    }
+    .d1>img{
+	margin-left: 0px;
+	margin-right: 0px;
+}
+    .d2{
+        width: 90%;
+        height: 200px;
+    }
+     .d3{
+        width: 90%;
+        height: 200px;
+    }
+    .modal{
+        display: hide;
+    }
+    .multiprimera{
+	margin-top: 50px;
+    }
+    #firstphoto{
+       margin-top: 100px; 
+    }
+    .modalcon{
+    top: 150px;
+    width: 100%;
+    height: 20%;
+}
+}
+
+@media screen and (min-width: 1000px ){
+       .d1{
+        width: 90%;
+        height: 500px;
+    }
+    .d1>img{
+	margin-left: 0px;
+	margin-right: 0px;
+}
+    .d2{
+        width: 45%;
+        height: 300px;
+        
+    }
+     .d3{
+        width: 30%;
+        height: 200px;
+         margin-left: 2.5%;
+         
+    }
+    .modalcon{
+    top: 150px;
+    width: 100%;
+    height: 47%;
+  
+      
+}
+}
+@media screen and (min-width: 1200px ){
+       .d1{
+        width: 90%;
+        height: 600px;
+    }
+    .d1>img{
+	margin-left: 0px;
+	margin-right: 0px;
+}
+    .d2{
+        width: 45%;
+        height: 300px;
+    }
+     .d3{
+        
+        height: 200px;
+         margin-left: 2%
+    }
+    .modalcon{
+    top: 150px;
+    width: 100%;
+    height: 62%;
+  
+      
+}
+}
+@media screen and (min-width: 1500px ){
+       .d1{
+        width: 90%;
+        height: 800px;
+    }
+    .d1>img{
+	margin-left: 0px;
+	margin-right: 0px;
+}
+    .d2{
+        width: 45%;
+        height: 400px;
+    }
+     .d3{
+        
+        height: 300px;
+         margin-left: 2%
+    }
+    .modalcon{
+    top: 150px;
+    width: 100%;
+    height: 62%;
+  
+      
+}
+}
+@media screen and (min-width: 2500px) {
+    .d1{
+        width: 90%;
+        height: 1000px;
+    }
+    .d1>img{
+	margin-left: 0px;
+	margin-right: 0px;
+}
+    .d2{
+        width: 45%;
+        height: 600px;
+    }
+     .d3{
+        
+        height: 500px;
+         margin-left: 2%
+    }
+.modalcon{
+    top: 200px;
+    width: 100%;
+    height: 70%;
+  
+      
+}
+    
+}
+
 /*----Class main page-----*/
 .class{
     display:inline-block;
@@ -174,6 +357,59 @@
 .class:hover{
     transform: scale(1.1); 
 }
+@media screen and (max-width: 1300px ){
+.class{
+        margin-top: 2px;
+        width: 25%;
+        height: 300px;
+       transform: translateX(5%);
+    }
+    .primclass{
+        margin-top: 100px
+    }
+
+    #reaper{
+        transform: translateX(6%);
+    }
+    
+}
+@media screen and (max-width: 900px) {
+    
+       .class{
+        margin-top: 2px;
+        width: 40%;
+        height: 300px;
+       transform: translateX(5%);
+    }
+    .primclass{
+        margin-top: 100px
+    }
+    #reaper {
+        transform: translateX(5%);
+    }
+}
+@media screen and (max-width: 500px) {
+    .class{
+        margin-top: 2px;
+        width: 80%;
+        height: 300px;
+       transform: translateX(5%);
+    }
+    .primclass{
+        margin-top: 100px
+    }
+    .class img:nth-child(2){
+        display:none 
+    }
+    #reaper{
+        transform: translateX(6%);
+    }
+    
+}
+
+/*/*
+
+*/
 /*--class lore ---*/
 .sec{
     width: 100%;
@@ -247,7 +483,7 @@
 .class-myth{
     display:inline-block;
     width: 25%;
-    height: 500px;
+    height: auto;
     margin-left: 5%;
     cursor: pointer;
     transition: all 1s ease;
@@ -264,6 +500,88 @@
 .class-related img{width: 100%}.class-related:hover{transform: scale(1.2);}
 
 
+@media screen and (max-width: 1300px ){
+    .logo-class {
+       
+        display: inline-block;
+        top: -250px;
+       
+    }
+   
+.class-text{
+       position: relative;
+       font-size: 2m;
+        top: 150px;
+        margin-left: 5%
+    }
+    
+}
+@media screen and (max-width: 1000px) {
+     .sec{
+        height: 500px;
+    }
+    .logo-class {
+        margin-top: 200px;
+        display: inline-block;
+        top: -250px;
+        position: relative;
+    }
+   
+   .class-text{
+       position: relative;
+       font-size: 10px;
+        top: -50px;
+        margin-left: 5%
+    }
+}
+@media screen and (max-width: 760px) {
+    .sec{
+        height: 600px;
+    }
+    .logo-class {
+        display: block;
+        position: relative;
+         margin-top: 400px;
+        width: 90%;
+        margin-left: 5%
+    }
+    .class-text{
+        font-size: 15px;
+        display: block;
+        position: relative;
+        margin-top: 200px;
+        width: 90%;
+        margin-left: 5%
+    }
+    .class-myth{
+        width: 70%;
+        height: auto;
+        margin-top: 10px;
+        margin-left: 15%
+    }
+    .class-related {
+         width: 70%;
+        height: auto;
+        margin-top: 10px;
+        margin-left: 15%
+    }
+}
+
+@media screen and (min-width: 1310px ){
+    .class-text{
+        position: relative;
+       font-size: 15px;  
+        top: 10px;
+    }
+}
+@media screen and (min-width: 2000px ){
+    .class-text{
+        position: relative;
+       font-size: 25px;      
+        top: 10px;
+    
+    }
+}
 /*-------------------myths lore-----------------*/
 /*--background---*/
 .background-myths-lore{
