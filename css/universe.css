@@ -1,3 +1,6 @@
+body{
+    background-image: radial-gradient(circle,#444 2%,#222 15%, black 60%);
+}
 .universe-font{
     color: white;
 }
@@ -8,3 +11,241 @@
     width: 100%;
     text-align: left;
 }
+.realm{
+    display: inline-block;
+    width: 20%;
+    margin-top: 40px;
+}
+.realm img{
+    width: 100%;
+}
+.hide{
+    display: none
+}
+.realm1{
+    margin-left: 10%;
+}
+.realm2{
+    margin-left: 20%
+}
+/*-----realms lore*/
+#algor-logo{
+    width: 100%;
+}
+#algor-logo img{
+    display: block;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+.loreandimg-relam{
+    display: inline-block;
+    width: 40%;
+    height: 800px;
+    margin-left: 5%;
+    margin-top: 50px;
+}
+.realms-logo{
+    width: 100%;
+    
+}
+.realms-logo img{
+    width: 45%;
+     display: block;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text-realms{
+    width: 80%;
+    margin-left: 10%;
+    color: #ccc;
+    font-size: 2em;
+      margin-top: 40px;
+    text-align: justify;
+}
+
+/*--myths from realms---*/
+
+/*---citadel---*/
+.imgs-mythsfrom-citadel{
+    width: 40%;
+    height: 800px;
+    display: inline-block;
+    position: absolute;
+    overflow: hidden;
+   clip-path: polygon(10% 0, 100% 0, 100% 100%, 0% 100%);
+    right: 0;
+    transition: all 1s ease;
+    cursor: pointer;
+}
+.imgs-mythsfrom-citadel:hover{
+    opacity: 0.5;
+    transform: scale(1.05);
+}
+.back-myth{
+    height: 800px;
+    top: 0px;
+    position: absolute;
+    object-fit:cover;
+    z-index: 1;
+    
+}
+.title-realm-myths{
+  
+    background-color: rgba(15,15,15,0.8);
+    height: 80px;
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+     top: 70%;
+}
+.title-realm-myths span{
+    display: block;
+    color: #ccc;
+    text-align:center;
+    width: 100%;
+    margin-top: 2.5%;
+    font-size: 2em
+}
+/*---citadel---*/
+/*----zuria----*/
+.loreandimg-relam-zuria{
+    display: inline-block;
+    width: 30%;
+    height: 750px;
+    margin-left: 5%;
+    margin-top: 80px;
+}
+.realms-logo-zuria{
+    width: 100%;
+}
+.text-zuria{
+    font-size: 1.6em;
+}
+.realms-logo-zuria img{
+    width: 60%;
+    display: block;
+    margin: auto;
+}
+.imgs-mythsfrom-zuria{
+    display: inline-block;
+    width: 60%;
+    position: absolute;
+    top:50px;
+    right: 0px;
+}
+.imgs-mythsfrom-zuria img{
+   height: 750px;
+    margin-left: -53px;
+     transition: all 1s ease;
+}
+.imgs-mythsfrom-zuria img:hover{
+    opacity: 0.5;
+    transform: scale(1.05);
+    
+}
+.location-zuria{
+    width:40%;
+    display: inline-block;
+}
+.myth-zuria{
+    width:60%;
+    display: inline-block;
+    margin-left: -4px
+}
+.title-zuria{
+    margin-left: -50px;
+    width: 65%;
+    position: absolute;
+}
+/*---------*/
+.stories{
+    width: 100%;
+}
+.stories-img{
+    width: 30%;
+    display: inline-block;
+}
+.stories-img img{
+    width: 100%;
+}
+.stories-tales{
+    background: linear-gradient(to right, rgba(0,0,0,0.5) ,rgba(0,0,0,0.5), rgba(80,80,80,0.5), rgba(0,0,0,0.5),rgba(0,0,0,0.5) ); 
+    
+    width: 70%;
+    position: absolute;
+    height: 220px;
+    margin-top: 70px;
+    left: 15%;
+    display: inline-block;
+    z-index: -1;
+    font-size: 2em;
+    color:#ccc;
+    
+}
+.title-tale{
+    margin-left: 25%;
+    margin-top: -80px;
+    margin-bottom: 60px
+    
+}
+
+.back-stories{
+    width: 80%;
+    text-align: justify;
+    margin-left: 25%;
+    font-size: 0.75em;
+    text-align: justify;
+}
+/*----------------------------zuria----*/
+/*--relams related---*/
+.realms-related{
+    display:inline-block;
+    width: 19%;height: 250px;
+    margin-left: 5%;cursor: pointer;
+    transition: all 1s ease;
+}
+.realms-related img{width: 100%}
+.realms-related:hover{transform: scale(1.2);}
+
+
+/*-----*/
+.sectiontitle{
+    width: 80%;
+    margin-left: 10%;
+     margin-right: 10%;
+    height: 100px;
+    display: block;
+    margin-bottom: 80px;
+    margin-top: -40px;
+}
+.sectiontitle p{
+    width: 100%;
+   color: white;
+    position: relative;
+    text-align: center;
+    top: 70px;
+    font-size: 2em
+}
+.sectiontitle img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+/*--RESPONSIVE-----*/
+@media screen and (max-width: 760px) {
+    #algor-logo img{
+        width: 70%;
+        margin-bottom: 20px;
+    }
+    .realms-related {
+         width: 70%;
+        height: auto;
+        margin-top: 10px;
+        margin-left: 15%
+    }
+}
+
+
