@@ -139,7 +139,7 @@ body{
 .imgs-mythsfrom-zuria img{
    height: 750px;
     margin-left: -53px;
-     transition: all 1s ease;
+     transition: all 0.3s ease;
 }
 .imgs-mythsfrom-zuria img:hover{
     opacity: 0.5;
@@ -159,6 +159,15 @@ body{
     margin-left: -50px;
     width: 65%;
     position: absolute;
+}
+.title-zuria-location{
+    margin-left: -50px;
+    width: 40%;
+    position: absolute;
+
+}
+.title-zuria-location span{
+    margin-top: 15px;
 }
 /*---------*/
 .stories{
@@ -200,10 +209,45 @@ body{
     text-align: justify;
 }
 /*----------------------------zuria----*/
+/*---grynn-----*/
+.stories-tales-grynn{
+     background: linear-gradient(to right, rgba(0,0,0,0.5) ,rgba(0,0,0,0.5), rgba(80,80,80,0.5), rgba(0,0,0,0.5),rgba(0,0,0,0.5) ); 
+     width: 90%;
+    font-size: 2em;
+    color:#ccc;
+    margin-left: 5%;
+}
+.back-stories-grynn{
+    width: 70%;
+    text-align: justify;
+    margin-left: 25%;
+    font-size: 0.75em;
+    text-align: justify;
+}
+/*--edolas--*/
+.imgs-mythsfrom-edolas{
+    width: 40%;
+    height: 800px;
+    display: inline-block;
+    overflow: hidden;
+   clip-path: polygon(10% 0, 100% 0, 100% 100%, 0% 100%);
+    right: 0;
+    transition: all 1s ease;
+    cursor: pointer;
+    padding-top: 45px
+}
+.imgs-mythsfrom-edolas:hover{
+    opacity: 0.5;
+    transform: scale(1.05);
+}
 /*--relams related---*/
+.realms-related-sec{
+    height: 500px;
+    margin-top: 50px;
+}
 .realms-related{
     display:inline-block;
-    width: 19%;height: 250px;
+    width: 19%;
     margin-left: 5%;cursor: pointer;
     transition: all 1s ease;
 }
