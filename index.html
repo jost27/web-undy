@@ -1,68 +1,170 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>ETHEREAL</title>
-    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
-    <link href="css/style.css" rel="stylesheet" type="text/css">
-    <link href="css/index.css" rel="stylesheet" type="text/css"/>
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body>
-    <div id="menu">
-        <div id="menu-bar-back"></div>
-        <div id="menu-logo-cont">
-        </div>    
-        <div id="menu-bar">
-            <a>UNIVERSE</a>
-            <a>CLASSES</a>
-            <a>MYTHS</a>
-            <a>MULTIMEDIA</a>
-            
-            
-            
-        </div>
-    </div>
-    <div class="separator"></div>
-    <div id="atropos-main">
-        <div id="atropos-main-meet" class="atropos-main">
-            <p>Meet Atropos</p>
-            <p>Atropos is the most powerful and lethal neutral objective on the game. it is an epic monster with 3 different evolutions mechanics. it uses a wide variety of threatening attacks, both singular and AOE(Area of Effect).</p>
-        </div>
-        <div id="atropos-main-1" class="atropos-main">
-            <img src="img/atropos-main-1.png">
-        </div>
-        <div id="atropos-main-2" class="atropos-main">
-            <img src="img/atropos-main-2.png">
-        </div>
-        <div id="atropos-main-3" class="atropos-main">
-            <img src="img/atropos-main-3.png">
-        </div>
-    </div>
-    <div class="separator"></div>
-    <div class="atropos-evol" id="atropos-1">
-        <div>
-            <p>first evolution</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </div>
-    </div>
-    <div class="atropos-evol" id="atropos-2">
-        <div>
-            <p>second evolution</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </div>
-    </div>
-    <div class="atropos-evol" id="atropos-3">
-        <div>
-            <p>last evolution</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </div>
-    </div>
-    <div class="atropos-evol" id="atropos-4">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </div>
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <title>ETHEREAL</title>
 
+  <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <link href="css/index.css" rel="stylesheet" type="text/css"/>
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+
+  <style media="screen">
+  body {
+    background-image: url(img/fondo.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  </style>
+  <div id="menu">
+    <div id="menu-bar-back"></div>
+    <div id="menu-logo-cont">
+    </div>
+    <div id="menu-bar">
+      <a>UNIVERSE</a>
+      <a>CLASSES</a>
+      <a>MYTHS</a>
+      <a>MULTIMEDIA</a>
+    </div>
+  </div>
+  <div class="portada"  id="inicio" >
+    <img src="img/inicio.png" alt="logo" class="img-fluid">
+  </div>
+  <div class="row">
+    <div class="col-12 text-center">
+      <img id="atropos" src="atropos/atropos.png"  width="100%" alt="atropos 1" >
+      <img id="atropos1" src="atropos/atropos1.png"  width="100%" alt="atropos 2" style="display:none">
+      <img id="atropos2" src="atropos/atropos2.png"  width="100%" alt="atropos 3" style="display:none">
+      <img id="atropos3" src="atropos/atropos3.png"  width="100%" alt="atropos 3" style="display:none">
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-7">
+      <div class="row mt-5">
+        <div class="col-3 mt-5">
+          <img src="atropos\first.png" alt="">
+          <img src="img\atropos-evol-tit.png" class="img-fluid" alt="">
+        </div>
+        <div class="col-9 mt-5">
+          <p class="text-justify" style="color:white;font-size:15px;">One handed Sword with a few AOE abilities, still bigger than
+            most MYTH.
+          </p>
+          <p class="text-justify" style="color:white;font-size:15px; align:left">
+            Atropos has three different forms. Depending on its HP (Hit
+            points), Atropos will transform between them becoming
+            more powerful and dangerous with every phase.
+          </p>
+        </div>
+      </div>
+      <div class="col-12">
+        <img src="atropos\angel.png" class="img-fluid" alt="first">
+      </div>
+    </div>
+
+    <div class="col-5">
+      <img src="atropos\atropos-1.png" class="img-fluid" alt="first">
+    </div>
+  </div>
+  <div class="row mt-5">
+    <div class="col-7">
+      <img src="img\atropos-main-2.png" class="img-fluid" alt="first">
+    </div>
+    <div class="col-2">
+      <img src="atropos\second.jpg" class="img-fluid" alt="first">
+    </div>
+    <div class="col-3">
+      <p class="text-justify" style="color:white;font-size:15px; align:left">
+        It develops wings. It’s movement and attack speed
+        increases.
+      </p>
+      <p class="text-justify" style="color:white;font-size:15px; align:left">
+        Players will have to coordinate with their team to defeat it.
+        The team who kills Atropos will be granted a powerful
+        buff. The buff enhances the attack damage and ability
+        power of each MYTH, has as well as rewarding a big loot
+        of gold.
+      </p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-8">
+      <img src="atropos\final.png" class="img-fluid" alt="">
+    </div>
+    <div class="col-4">
+      <div class="row">
+        <div class="col-5">
+          <img src="atropos\final.JPG" class="img-fluid" alt="">
+        </div>
+
+        <div class="col-7">
+          <p class="text-justify" style="color:white;font-size:13px; align:left">
+            It overgrows and destroys the Arena where players are fighting it. Atropos
+            swings its arms and slams the ground dealing high damage and
+            conjuring multiple deadly AOE projectiles.
+          </p>
+          <p class="text-justify" style="color:white;font-size:13px; align:left">
+            Rushing Atropos to gain a substantial advantage over the opposite team
+            is possible and can be achieved within a few seconds of beginning the
+            match. Great skill will determine the outcome, it is highly advised to not
+            go and attempt to solo Atropos.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<script src="bootstrap\js\jquery.min.js" ></script>
+<script src="bootstrap\js\bootstrap.min.js"></script>
+<script type="text/javascript">
+$(document).click(function()
+{
+  $('#inicio').slideUp("slow");
+  $('#pantalla').show();
+});
+
+var cont = 0;
+setInterval(imagen, 3000);
+function imagen()
+{
+  if(cont == 0)
+  {
+    $('#atropos').hide();
+    $('#atropos1').show();
+    $('#atropos2').hide();
+    $('#atropos3').hide();
+    cont = 1;
+  }
+  else if(cont == 1)
+  {
+    $('#atropos').hide();
+    $('#atropos1').hide();
+    $('#atropos2').show();
+    $('#atropos3').hide();
+    cont = 2;
+  }
+  else if(cont == 2)
+  {
+    $('#atropos').hide();
+    $('#atropos1').hide();
+    $('#atropos2').hide();
+    $('#atropos3').show();
+    cont = 3;
+  }
+  else if(cont == 3)
+  {
+    $('#atropos').show();
+    $('#atropos1').hide();
+    $('#atropos2').hide();
+    $('#atropos3').hide();
+    cont = 0;
+  }
+}
+</script>
 </body>
 </html>
