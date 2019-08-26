@@ -27,10 +27,12 @@
     </div>
     <div class="row">
       <div class="col-12 text-center">
-        <img id="atropos" src="atropos/Atropos-01.png"  width="100%" alt="atropos 1" >
-        <img id="atropos1" src="atropos/atropos-02.png"  width="100%" alt="atropos 2" style="display:none">
-        <img id="atropos2" src="atropos/atropos-03.png"  width="100%" alt="atropos 3" style="display:none">
-        <img id="atropos3" src="atropos/atropos-04.png"  width="100%" alt="atropos 3" style="display:none">
+        <img style="border:0" id="atro"  src="atropos/Atropos-01.png"  width="1200" height="675" alt="atropos 1" usemap="#ima">
+        <map name="ima">
+          <area  onclick="document.getElementById('atro').src = 'atropos/Atropos-02.png'" shape="rect" coords="350, 130, 620, 675" href="#" alt="Firts evolution">
+          <area onclick="document.getElementById('atro').src = 'atropos/Atropos-03.png'" shape="rect" coords="625, 130, 900, 675" href="#" alt="Second evolutio">
+          <area onclick="document.getElementById('atro').src = 'atropos/Atropos-04.png'" shape="rect" coords="902, 130, 1200, 675" href="#" alt="Second evolutio">
+        </map>
       </div>
     </div>
   </div>
@@ -126,50 +128,5 @@
 </div>
 <script src="bootstrap\js\jquery.min.js" ></script>
 <script src="bootstrap\js\bootstrap.min.js"></script>
-<script type="text/javascript">
-  $(document).click(function()
-  {
-    $('#inicio').slideUp("slow");
-    $('#pantalla').show();
-  });
-
-  var cont = 0;
-  setInterval(imagen, 3000);
-  function imagen()
-  {
-    if(cont == 0)
-    {
-      $('#atropos').hide();
-      $('#atropos1').show();
-      $('#atropos2').hide();
-      $('#atropos3').hide();
-      cont = 1;
-    }
-    else if(cont == 1)
-    {
-      $('#atropos').hide();
-      $('#atropos1').hide();
-      $('#atropos2').show();
-      $('#atropos3').hide();
-      cont = 2;
-    }
-    else if(cont == 2)
-    {
-      $('#atropos').hide();
-      $('#atropos1').hide();
-      $('#atropos2').hide();
-      $('#atropos3').show();
-      cont = 3;
-    }
-    else if(cont == 3)
-    {
-      $('#atropos').show();
-      $('#atropos1').hide();
-      $('#atropos2').hide();
-      $('#atropos3').hide();
-      cont = 0;
-    }
-  }
-</script>
 </body>
 </html>
