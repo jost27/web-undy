@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'NEWACADEMY';
+    src: local('NEWACADEMY.ttf'),
+        url('NEWACADEMY.ttf') format('truetype'),
+     font-weight: normal;
+    font-style: normal;
+    font-strecht: condensed;
+    unicode-range: "U+0-10FFFF";
+}

@@ -497,7 +497,8 @@ margin-top: 50px;
     margin-left: 5%;cursor: pointer;
     transition: all 1s ease;
 }
-.class-related img{width: 100%}.class-related:hover{transform: scale(1.2);}
+.class-related img{width: 100%}
+.class-related:hover{transform: scale(1.2);}
 
 
 @media screen and (max-width: 1300px ){
@@ -671,7 +672,7 @@ margin-top: 50px;
     
 }
 #myth-loreimg img{
-    height: 600px;
+    height: 700px;
     width: auto;
     margin-left: 15%;
 }
