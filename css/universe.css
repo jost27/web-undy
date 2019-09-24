@@ -72,31 +72,35 @@ body{
 .imgs-mythsfrom-citadel{
     width: 40%;
     height: 800px;
-    display: inline-block;
     position: absolute;
-    overflow: hidden;
-   clip-path: polygon(10% 0, 100% 0, 100% 100%, 0% 100%);
-    right: 0;
+   
+    display: inline-block;
+    right: 0px;
     transition: all 1s ease;
     cursor: pointer;
 }
 .imgs-mythsfrom-citadel:hover{
     opacity: 0.5;
     transform: scale(1.05);
+    position: absolute;
+    right: 0px;
 }
 .back-myth{
-    height: 800px;
-    top: 0px;
+   height: 800px;
     position: absolute;
-    object-fit:cover;
+    right: 0px;
+    top: 0px;
     z-index: 1;
-    
+}
+.back-myth img{
+    width: 100;
 }
 .title-realm-myths{
   
     background-color: rgba(15,15,15,0.8);
     height: 80px;
-    width: 100%;
+    width: 110%;
+    right: 1.5%;
     position: absolute;
     z-index: 2;
      top: 70%;
